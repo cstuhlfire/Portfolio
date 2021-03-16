@@ -12,6 +12,7 @@
     <title>Coleen Stuhlfire's Portfolio</title>
 </head>
 
+<!-- Body -->
 <body>
     <!-- Header -->
     <header>
@@ -24,22 +25,65 @@
         <a href="#Projects">Projects</a>
         <a href="#Contact">Contact</a>
     </nav>
+
+    <hr>
     
-    <main>
-        <section id="About Me">
-            <h2>About Me</h2>
-            <p>Content</p>
-        </section>
-        <br>
-        <section id="Projects">
+    <section id="About Me" class="about_me">
+      <aside>
+        <h2>About Me</h2>
+        <!-- Image -->
+        <span class="image">
+            <img src="../assets/images/ProfilePic.jpg" alt="Coleen Stuhlfire" class="my_image">
+        </span> 
+
+        <span style="">
+            I am an aspiring full stack developer, currently enrolled in coding boot camp. I have ten years of client and server side development experience, including C, C++, SQL, and database maintenance and administrator work. After taking time away to run a real estate investment and rental business, I am ready to return to software development.
+        </span>    
+      </aside>
+    </section>
+
+    <main> 
+        <!-- Project Cards -->
+        <div id="Projects" class="project_cards">
             <h2>Projects</h2>
-            <p>Content</p>
-        </section>
-        <br>
-        <section id="Contact">
-            <h2>Contact</h2>
-            <p>Content</p>
-        </section>
-    </main>
+            <br>
+            <section class="card">
+                <header>Horision</header>
+                <img src="./assets/images/LittleBoathouse.jpg" alt="black camera" />
+            </section>
+
+            <section class="card">
+                <header>Bakery</header>
+                <img src="./assets/images/LittleBoathouse.jpg" alt="tablet held in hands" />
+            </section>
+
+            <section class="card">
+                <header>Bingo</header>
+                <img
+                src="./assets/images/LittleBoathouse.jpg"
+                alt="rolls of toilet paper in a basket"
+                />
+            </section>
+
+            <section class="card">
+                <header>Matching DB</header>
+                <img
+                src="./assets/images/LittleBoathouse.jpg"
+                alt="4 wooden spoons with different seasonings"
+                />
+            </section>
+        </div>        
+      </main>
+      
+      <section id="Contact" class="my_contact">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="#">myemail@gmail.com</a></p>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>Thank you for visiting.</p>
+      </footer>
+
 </body>
 </html>
