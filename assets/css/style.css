@@ -50,3 +50,7 @@ nav a {
     font-size: 120%;
     text-decoration: none;
 } 
+
+nav a:hover {
+    color: var(--white);
+}
