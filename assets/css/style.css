@@ -53,14 +53,16 @@
   h2 {
       font-size: 200%;
   }
+
   aside {
     flex: 1;
     vertical-align: top;
     background-color: var(--light-blue);
-    padding: 20px 20px 20px 80px;
+    padding: 20px 20px 40px 80px;
   }
 
   .about_me {
+    flex: 1;
     display: flex;
     align-items: top;
   }
@@ -76,7 +78,7 @@
     border: 7px solid var(--header-blue);
   } 
 
-  .project_cards h2 {
+  main h2 {
     padding: 20px 20px 20px 80px;
   }
   
@@ -85,12 +87,12 @@
   }
 
   .my_contact p {
-    padding: 10px 0px 20px 80px;
+    padding: 10px 0px 5px 80px;
   }
 
   .project_cards {
       flex: 4;
-      background-color: var(--white);
+      background-color: var(--body-background);
       padding: 10px;
       display: flex;
       flex-wrap: wrap;
@@ -98,8 +100,7 @@
       font-size: 75%;
     }
     
-    
-    .card {
+  .card {
         border-style: solid;
         border-width: 1px;
         border-radius: 5px;
@@ -107,24 +108,24 @@
         flex: 0 0 500px;
     }
     
-    .card header {
+  .card header {
         padding: 20px;
-    }
+  }
     
-    .card p {
+  .card p {
         text-align: center;
-    }
+   }
     
-    .card img {
+  .card img {
         width: 100%;
-    } 
+   } 
     
-    footer {
-      padding: 20px;
-      text-align: center;
-      background: var(--header-blue);
-      color: var(--white);
-    }
+   footer {
+     padding: 20px;
+     text-align: center;
+     background: var(--header-blue);
+     color: var(--white);
+   }
 
     /* Set media query to account for smaller screen sizes */
   @media screen and (max-width: 768px) {
