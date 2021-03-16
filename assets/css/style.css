@@ -7,30 +7,46 @@
 
 /* Delcare variables for color scheme */
 :root{
-    --blue: #2a607c;
-    --white-text: #ffffff;
-    --light-blue: #b7d6e7;
+    --header-blue: #2a607c;
+    --white: #ffffff;
+    --light-blue: #b2d4e5;
+    --body-background: #f4f9fb;
 }
 
-/* Element body defines the background color */
 body {
-    background-color: #d9dcd6;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--body-background);
 }
 
-/* Element header defines padding, font-family, background-color, and color for the <header> tag */
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--blue);
-    color: var(--white-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    background-color: var(--header-blue);
+    color: var(--white);
 }
 
-/* Element header and h1 define the CSS display type and font-size for the <header> tag and the <h1> tag */
-header h1 {
-    display: inline-block;
-    font-size: 48px;
+h1 {
+    font-size: 300%;
 }
 
-header h3 {
+header h2 {
     color: var(--light-blue);
 }
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 350px;
+}
+
+/* Define text for list items */
+nav a {
+    background-color: unset;
+    color: var(--light-blue);
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration: none;
+} 
