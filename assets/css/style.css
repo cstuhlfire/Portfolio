@@ -1,0 +1,36 @@
+/* Initial setting sets up box sizing, padding, and margin for All */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Delcare variables for color scheme */
+:root{
+    --blue: #2a607c;
+    --white-text: #ffffff;
+    --light-blue: #b7d6e7;
+}
+
+/* Element body defines the background color */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Element header defines padding, font-family, background-color, and color for the <header> tag */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--blue);
+    color: var(--white-text);
+}
+
+/* Element header and h1 define the CSS display type and font-size for the <header> tag and the <h1> tag */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h3 {
+    color: var(--light-blue);
+}
