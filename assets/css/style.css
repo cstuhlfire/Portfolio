@@ -25,7 +25,7 @@
     background: var(--header-blue);
     color: var(--white);
   }
-  
+
   
   nav {
     display: flex;
@@ -54,27 +54,30 @@
       font-size: 200%;
   }
 
+  .about_header {
+    padding: 20px 20px 20px 0px;
+    color: var(--header-blue);
+  }
+
   aside {
     flex: 1;
     vertical-align: top;
     background-color: var(--light-blue);
-    padding: 20px 20px 40px 80px;
+    padding: 20px 20px 30px 80px;
   }
 
   .about_me {
     flex: 1;
     display: flex;
-    align-items: top;
   }
 
-
-  .image {
-    display: inline-block;
+  .image p {
+    padding: 90px 180px 20px 180px;
+    line-height: 1.6;
   }
 
   .my_image {
-    
-    width: 25%;
+    float: left;
     border: 7px solid var(--header-blue);
   } 
 
@@ -82,13 +85,19 @@
     padding: 20px 20px 20px 80px;
   }
   
+  .project_header {
+    padding: 20px 20px 20px 80px;
+    color: var(--header-blue);
+  }
   .my_contact h2 {
     padding: 20px 20px 20px 80px;
+    color: var(--header-blue);
   }
-
+  
   .my_contact p {
     padding: 10px 0px 5px 80px;
   }
+
 
   .project_cards {
       flex: 4;
@@ -97,29 +106,43 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      font-size: 75%;
     }
-    
+
   .card {
         border-style: solid;
         border-width: 1px;
         border-radius: 5px;
         padding: 10px;
-        flex: 0 0 500px;
+        flex: 0 0 300px;
     }
+
+  .card1 {
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 5px;
+      padding: 10px;
+      flex: 0 0 400px;
+  }
     
   .card header {
         padding: 20px;
+        font-size: 20px;
   }
-    
-  .card p {
-        text-align: center;
-   }
-    
-  .card img {
-        width: 100%;
+  
+  .card1 header {
+      padding: 20px 20px 20px 20px;
+      font-size: 25px;
+      
+  }
+  
+ .card img {
+      width: 100%;
    } 
-    
+
+  .card1 img {
+      width: 100%;
+   } 
+
    footer {
      padding: 20px;
      text-align: center;
