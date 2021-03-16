@@ -1,8 +1,6 @@
 /* Initial setting sets up box sizing, padding, and margin for All */
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
 /* Delcare variables for color scheme */
@@ -10,20 +8,20 @@
     --header-blue: #2a607c;
     --white: #ffffff;
     --light-blue: #b2d4e5;
+    --medium-blue: #6faece;
     --body-background: #f4f9fb;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--body-background);
+    /* display: flex;
+    background-color: var(--body-background); */
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3%;
+    padding: 50px 20px 15px 35px;;
     background-color: var(--header-blue);
     color: var(--white);
 }
@@ -32,29 +30,29 @@ h1 {
     font-size: 300%;
 }
 
-header h2 {
-    color: var(--light-blue);
-}
-
-nav ul {
+nav {
     display: flex;
-    justify-content: space-between;
-    min-width: 350px;
-}
-
-/* Define text for list items */
-nav a {
-    background-color: unset;
-    color: var(--light-blue);
+    background-color: var(--light-blue);
+  }
+  
+  nav a {
+    color: var(--header-blue);
     font-weight: bold;
-    font-size: 120%;
+    padding: 10px 20px 15px 35px;
     text-decoration: none;
-} 
+    text-align: center;
+  }
 
 nav a:hover {
-    color: var(--white);
+    color: var(--medium-blue);
 }
 
+main {
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+/* Media queries */
 @media screen and (max-width: 992px){
     header{
         background-color: violet;
@@ -64,5 +62,8 @@ nav a:hover {
 @media screen and (max-width: 768px) {
     header{
         background-color: green;
+    }
+    nav{
+        flex-direction: column;
     }
 }
