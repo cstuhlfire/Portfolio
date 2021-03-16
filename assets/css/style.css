@@ -54,3 +54,15 @@ nav a {
 nav a:hover {
     color: var(--white);
 }
+
+@media screen and (max-width: 992px){
+    header{
+        background-color: violet;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        background-color: green;
+    }
+}
