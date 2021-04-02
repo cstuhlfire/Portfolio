@@ -42,7 +42,7 @@
   }
   
   nav a:hover {
-    color: var(--white)
+    color: var(--white);
   }
 
   main {
@@ -71,13 +71,22 @@
     display: flex;
   }
 
-  .image p {
-    padding: 90px 180px 20px 180px;
-    line-height: 1.6;
+  #about-me {
+    padding: 1% 20% 0% 15%;
+    line-height: 1.8;
+  }
+
+  #profile-pic {
+    padding-left: 2%;
+  }
+   
+  #contact-links {
+    padding-left: 2%;
   }
 
   .my_image {
     float: left;
+    width: 10%;
     border: 7px solid var(--header-blue);
   } 
 
