@@ -63,7 +63,7 @@
 /* For work feature block */
 .work-feature-block {
   padding: 10px 0;
-  border-top: 1px solid #cacaca;
+  /* border-top: 1px solid #cacaca; */
   border-bottom: 1px solid #cacaca;
 }
 
@@ -73,6 +73,49 @@
   padding: 10px 0;
 }
 
+/* For about me block */
+
+$portfolio-resume-spacing: 2rem;
+
+.portfolio-resume-spacing {
+  margin-bottom: $portfolio-resume-spacing;
+}
+
+.portfolio-resume-wrapper {
+  padding: 2rem 4rem;
+}
+
+.portfolio-resume-headshot {
+  margin-bottom: 2rem;
+  border-radius: 50%;
+}
+
+.portfolio-resume-header {
+  text-transform: none;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid $light-gray;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.portfolio-resume-contact-info {
+  margin-bottom: 0.75rem;
+
+  a {
+    color: $black;
+  }
+
+  .fa {
+    font-size: 1.4rem;
+    padding-right: 0.8rem;
+    vertical-align: middle;
+    color: $black;
+  }
+}
+
+
+
+/* My custom classes */
 .my-hero-container {
   top: 10%;  
   float: none;
@@ -100,6 +143,20 @@
   background-color: var(--my-dark-grey);
 }
 
+.my-about-pic {
+  float: none;
+  display: inline-block;
+  width: 40%;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  background-color: var(--my-dark-grey);
+}
+
+.my-feature-container {
+  color: var(--my-dark-grey);
+  margin-bottom: 5%;
+}
+
 .my-feature {
   color: var(--my-dark-grey);
 }
@@ -109,6 +166,7 @@
   border: solid var(--my-background);
   margin-top: 15px;
   padding: 10px;
+  opacity: 80%;
 
   transition: all .8s ease-in-out;
 }
@@ -117,5 +175,6 @@
   width: 45%;
   border: solid;
   border-color: var(--my-dark-grey);
+  opacity: 100%;
 }
 
