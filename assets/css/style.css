@@ -42,11 +42,11 @@
 
 .subnav-hero-subnav li a {
   padding: 0.9rem 1rem;
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: var(--my-dark-grey);
   text-transform: none;
   display: block;
-  font-weight: bold;
+  font-weight: none;
   letter-spacing: 1px;
   transition: all .35s ease-in-out;
 }
@@ -107,7 +107,7 @@
 }
 
 .fas, .fab {
-  margin-left: 15%;
+  margin-left: 17%;
   margin-right: 1%;
   color: var(--my-dark-grey);
 }
@@ -164,6 +164,7 @@
   margin-top: 15px;
   padding: 10px;
   opacity: 80%;
+  box-shadow: 5px 3px 5px 5px var(--my-background);
 
   transition: all .8s ease-in-out;
 }
