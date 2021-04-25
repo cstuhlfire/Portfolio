@@ -1,168 +1,84 @@
-/* Initial setting sets up box sizing, padding, and margin for All */
-* {
-    box-sizing: border-box;
+
+.subnav-hero-section {
+  text-align: center;
+  background: #d8e1e7;
+  background-size: cover;
+  position: relative;
+  overflow: visible;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 325px;
 }
 
-/* Delcare variables for color scheme */
-:root{
-    --header-blue: #2a607c;
-    --white: #ffffff;
-    --light-blue: #b2d4e5;
-    --medium-blue: #6faece;
-    --body-background: #f4f9fb;
+.subnav-hero-section .subnav-hero-headline {
+  color: darkgray;
 }
-  
-  body {
-    font-family: Arial;
-    background: var(--body-background);
-    margin: 0;
-  }
-  
-  header {
-    padding: 40px;
-    text-align: left;
-    font-size: 250%;
-    background: var(--header-blue);
-    color: var(--white);
-  }
 
-  
-  nav {
-    display: flex;
-    padding: 10px 0px 0px 25px;
-    background-color: var(--light-blue);
-  }
-  
-  nav a {
-    color: var(--header-blue);
-    font-weight: bold;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-  }
-  
-  nav a:hover {
-    color: var(--white);
-  }
+.subnav-hero-subnav {
+  float: none;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  bottom: 0;
+  width: 100%;
+}
 
-  main {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.subnav-hero-subnav li {
+  float: none;
+  display: inline-block;
+}
 
-  h2 {
-      font-size: 200%;
-  }
+.subnav-hero-subnav li a {
+  padding: 0.9rem 1rem;
+  font-size: 0.75rem;
+  color: darkgrey;
+  text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.35s ease-in-out;
+}
 
-  .about_header {
-    padding: 20px 20px 20px 0px;
-    color: var(--header-blue);
-  }
+.subnav-hero-subnav li a.is-active {
+  background: rgba(254, 254, 254, 0.15);
+}
 
-  aside {
-    flex: 1;
-    vertical-align: top;
-    background-color: var(--light-blue);
-    padding: 20px 20px 30px 80px;
-  }
+.subnav-hero-subnav li a:hover {
+  background: darkgrey;
+  color: white;
+}
 
-  .about_me {
-    flex: 1;
-    display: flex;
-  }
+.my-hero-container {
+  top: 10%;  
+  float: none;
+  position: absolute;
+  text-align: center;
+  margin: 5px auto;
+  bottom: 35px;
+}
 
-  #about-me {
-    padding: 1% 20% 0% 15%;
-    line-height: 1.8;
-  }
+.my-heading {
+  color: darkgrey;
+}
 
-  #profile-pic {
-    padding-left: 2%;
-  }
-   
-  #contact-links {
-    padding-left: 2%;
-  }
+.my-htext {
+  color: darkgrey;
+  margin: 0px; 
+}
 
-  .my_image {
-    float: left;
-    width: 10%;
-    border: 7px solid var(--header-blue);
-  } 
+.my-pic {
+  float: none;
+  display: inline-block;
+  width: 20%;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  background-color: rgb(153, 152, 152);
+}
 
-  main h2 {
-    padding: 20px 20px 20px 80px;
-  }
-  
-  .project_header {
-    padding: 20px 20px 20px 80px;
-    color: var(--header-blue);
-  }
-  .my_contact h2 {
-    padding: 20px 20px 20px 80px;
-    color: var(--header-blue);
-  }
-  
-  .my_contact p {
-    padding: 10px 0px 5px 80px;
-  }
-
-
-  .project_cards {
-      flex: 4;
-      background-color: var(--body-background);
-      padding: 10px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-
-  .card {
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 5px;
-        padding: 10px;
-        flex: 0 0 300px;
-    }
-
-  .card1 {
-      border-style: solid;
-      border-width: 1px;
-      border-radius: 5px;
-      padding: 10px;
-      flex: 0 0 400px;
-  }
-    
-  .card header {
-        padding: 20px 10px 20px 10px;;
-        font-size: 20px;
-  }
-  
-  .card1 header {
-      padding: 20px 10px 20px 10px;
-      font-size: 25px;
-      
-  }
-  
- .card img {
-      width: 100%;
-   } 
-
-  .card1 img {
-      width: 100%;
-   } 
-
-   footer {
-     padding: 20px;
-     text-align: center;
-     background: var(--header-blue);
-     color: var(--white);
-   }
-
-    /* Set media query to account for smaller screen sizes */
-  @media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
-    }
-  }
