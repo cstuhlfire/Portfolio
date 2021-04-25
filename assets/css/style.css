@@ -44,7 +44,7 @@
   padding: 0.9rem 1rem;
   font-size: 0.75rem;
   color: var(--my-dark-grey);
-  text-transform: uppercase;
+  text-transform: none;
   display: block;
   font-weight: bold;
   letter-spacing: 1px;
@@ -74,11 +74,8 @@
 }
 
 /* For about me block */
-
-$portfolio-resume-spacing: 2rem;
-
 .portfolio-resume-spacing {
-  margin-bottom: $portfolio-resume-spacing;
+  margin-bottom: 2rem;
 }
 
 .portfolio-resume-wrapper {
@@ -93,27 +90,27 @@ $portfolio-resume-spacing: 2rem;
 .portfolio-resume-header {
   text-transform: none;
   padding-bottom: 1rem;
-  border-bottom: 1px solid $light-gray;
-  font-weight: bold;
+  border-bottom: 1px solid lightgrey;
+  font-weight: none;
   margin-bottom: 1rem;
 }
 
-.portfolio-resume-contact-info {
-  margin-bottom: 0.75rem;
-
-  a {
-    color: $black;
-  }
-
-  .fa {
-    font-size: 1.4rem;
-    padding-right: 0.8rem;
-    vertical-align: middle;
-    color: $black;
-  }
+/* For contact */
+.my-social{
+  margin-top: 2%;
+  padding-bottom: 10%;
+  color: var(--my-dark-grey);
 }
 
+.my-contact-text {
+  color: var(--my-dark-grey);
+}
 
+.fas, .fab {
+  margin-left: 15%;
+  margin-right: 1%;
+  color: var(--my-dark-grey);
+}
 
 /* My custom classes */
 .my-hero-container {
