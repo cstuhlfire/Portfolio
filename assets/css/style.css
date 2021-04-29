@@ -102,6 +102,10 @@
   color: var(--my-dark-grey);
 }
 
+.my-social :hover {
+  color: black;
+}
+
 .my-contact-text {
   color: var(--my-dark-grey);
 }
