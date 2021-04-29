@@ -95,10 +95,11 @@
   margin-bottom: 1rem;
 }
 
+
 /* For contact */
 .my-social{
   margin-top: 2%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   color: var(--my-dark-grey);
 }
 
@@ -116,7 +117,9 @@
   color: var(--my-dark-grey);
 }
 
+
 /* My custom classes */
+
 .my-hero-container {
   top: 10%;  
   float: none;
@@ -179,4 +182,15 @@
   border-color: var(--my-dark-grey);
   opacity: 100%;
 }
+
+
+
+.social-footer1 {
+  padding: 1rem;
+  background: var(--my-dark-grey);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 
