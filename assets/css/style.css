@@ -183,7 +183,10 @@
   opacity: 100%;
 }
 
-
+.my-links {
+  color: var(--my-dark-grey);
+  text-decoration: underline;
+}
 
 .social-footer1 {
   padding: 1rem;

@@ -16,7 +16,7 @@ This application is a Seinfeld trivia quiz. Users are give 60 seconds and are ch
 This application is provides a view into a user's daily schedule. The days events are entered and displayed in one hour time blocks. The current hour is highlighted red, past hours are grey, and future time blocks are green. Technologies used: Javascript, HTML, CSS.
 
 ## Website Screenshot
-![The Portfolio webpage includes a navigation bar and links to four applications.](./assets/images/webpage-image.png)
+![The Portfolio webpage includes a navigation bar and links to four applications.](./Screenshot.PNG)
 
 ## Link to Deployed Application
 [Deployed Application](https://cstuhlfire.github.io/Portfolio/)
