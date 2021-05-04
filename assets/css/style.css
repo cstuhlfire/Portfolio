@@ -99,7 +99,8 @@
 /* For contact */
 .my-social{
   margin-top: 2%;
-  padding-bottom: 5%;
+  margin-left: 5%;
+  padding-bottom: 1%;
   color: var(--my-dark-grey);
 }
 
@@ -112,7 +113,7 @@
 }
 
 .fas, .fab {
-  margin-left: 17%;
+  margin-left: 10%;
   margin-right: 1%;
   color: var(--my-dark-grey);
 }
